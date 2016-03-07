@@ -1,0 +1,160 @@
+.blocks, .blocks_l1, .blocks_c1, .blocks_r1,.blocks_rr1, .blocks_l2, .blocks_c2, .blocks_r2,.blocks_rr2,.blocks_l3, .blocks_c3, .blocks_r3,.blocks_rr3,.blocks_l4, .blocks_c4, .blocks_r4,.blocks_rr4{
+position: absolute;
+display:block;
+border: 1px solid #ffffff;
+cursor: move;  
+width: 100px; 
+height:100px;
+}
+
+.blocks_c1{
+margin-left: 100px;
+}
+.blocks_r1{
+margin-left: 200px;
+}
+.blocks_rr1{
+margin-left: 300px;
+}
+
+.blocks_l2{
+margin-top: 100px;
+margin-left: 0px;
+}
+.blocks_c2{
+margin-top: 100px;
+margin-left: 100px;
+}
+.blocks_r2{
+margin-top: 100px;
+margin-left: 200px;
+}
+.blocks_rr2{
+margin-top: 100px;
+margin-left: 300px;
+}
+
+.blocks_l3{
+margin-top: 200px;
+margin-left: 0px;
+
+}
+.blocks_c3{
+margin-top: 200px;
+margin-left: 100px;
+}
+.blocks_r3{
+margin-top: 200px;
+margin-left: 200px;
+}
+.blocks_rr3{
+margin-top: 200px;
+margin-left: 300px;
+}
+
+.blocks_l4{
+margin-top: 300px;
+margin-left: 0px;
+}
+.blocks_c4{
+margin-top: 300px;
+margin-left: 100px;
+}
+.blocks_r4{
+margin-top: 300px;
+margin-left: 200px;
+}
+.blocks_rr4{
+margin-top: 300px;
+margin-left: 300px;
+}
+
+.block,.block2, .block_00,.block_01,.block_02, .block_03,.block_10,.block_11,.block_12,.block_13,.block_20,.block_21,.block_22,.block_23,.block_30,.block_31,.block_32,.block_33{
+    position: absolute;
+    display:none;
+    cursor: pointer;
+    font-size: 22pt;
+    text-align: center;
+    width: 96px; 
+    height:96px;
+    border: 2px solid #ffffff;
+    background-color: white;
+    background-image: url(img/fon.png);
+}
+.block_00{
+margin-left: 0px;
+}
+.block_01{
+margin-left: 100px;
+}
+.block_02{
+margin-left: 200px;
+}
+.block_03{
+margin-left: 300px;
+}
+.block_10{
+margin-top: 100px;
+margin-left: 0px;
+}
+.block_11{
+margin-top: 100px;
+margin-left: 100px;
+}
+.block_12{
+margin-top: 100px;
+margin-left: 200px;
+}
+.block_13{
+margin-top: 100px;
+margin-left: 300px;
+}
+.block_20{
+margin-top: 200px;
+margin-left: 0px;
+}
+.block_21{
+margin-top: 200px;
+margin-left: 100px;
+}
+.block_22{
+margin-top: 200px;
+margin-left: 200px;
+}
+.block_23{
+margin-top: 200px;
+margin-left: 300px;
+}
+.block_30{
+margin-top: 300px;
+margin-left: 0px;
+}
+.block_31{
+margin-top: 300px;
+margin-left: 100px;
+}
+.block_32{
+margin-top: 300px;
+margin-left: 200px;
+}
+.block_33{
+margin-top: 300px;
+margin-left: 300px;
+}
+.block2{
+    margin-top: -150px;
+    margin-left: 150px;
+     background-color:#fff;
+     border: 0x solid #125;
+     font-size: 30pt
+}
+
+
+.my_class{
+ background-color:#c8c7c7;
+}
+
+
+
+
+
